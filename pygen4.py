@@ -70,4 +70,105 @@
 # year = int(input())
 # print('YES' if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0 else 'NO')
 
+# a1 = int(input())
+# a2 = int(input())
+# b1 = int(input())
+# b2 = int(input())
+# print('YES' if a1 == b1 or a2 == b2 else 'NO')
 
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# d = int(input())
+# print('YES' if (-1 <= a - c <= 1) and (-1 <= b - d <= 1) else 'NO')
+
+# n, k = int(input()), int(input())
+# if n > k:
+#     print('NO')
+# elif n < k:
+#     print('YES')
+# else:
+#     print("Don't know")
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if a == b == c:
+#     print('Равносторонний')
+# elif a == b != c or a != b == c or a == c != b:
+#     print('Равнобедренный')
+# else:
+#     print('Разносторонний')
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if a < b < c or a > b > c:
+#     print(b)
+# elif a < c < b or a > c > b:
+#     print(c)
+# else:
+#     print(a)
+
+# month = int(input())
+# m31 = [1, 3, 5, 7, 8, 10, 12]
+# m30 = [4, 6, 9, 11]
+# if month in m31:
+#     print(31)
+# elif month in m30:
+#     print(30)
+# else:
+#     print(28)
+
+# num = int(input())
+# if num < 60:
+#     print('Легкий вес')
+# elif 60 <= num < 64:
+#     print('Первый полусредний вес')
+# else:
+#     print('Полусредний вес')
+
+# num1 = int(input())
+# num2 = int(input())
+# oper = input()
+# if oper == '+':
+#     print(num1 + num2)
+# elif oper == '-':
+#     print(num1 - num2)
+# elif oper == '*':
+#     print(num1 * num2)
+# elif oper == '/':
+#     if num2 == 0:
+#         print('На ноль делить нельзя!')
+#     else:
+#         print(num1 / num2)
+# else:
+#     print('Неверная операция')
+
+# color1 = input()
+# color2 = input()
+# colors = ['красный', 'синий', 'желтый']
+# if color1 not in colors or color2 not in colors:
+#     print('ошибка цвета')
+# elif color1 == color2:
+#     print(color1)
+# elif (color1 == 'красный' and color2 == 'синий') or (color1 == 'синий' and color2 == 'красный'):
+#     print('фиолетовый')
+# elif (color1 == 'красный' and color2 == 'желтый') or (color1 == 'желтый' and color2 == 'красный'):
+#     print('оранжевый')
+# elif (color1 == 'синий' and color2 == 'желтый') or (color1 == 'желтый' and color2 == 'синий'):
+#     print('зеленый')
+
+# num = int(input())
+# if num < 0 or num > 36:
+#     print('ошибка ввода')
+# elif num == 0:
+#     print('зеленый')
+# elif num % 2 == 0 and (0 < num <= 10 or 19 <= num <= 28):
+#     print('черный')
+# elif num % 2 == 0 and (11 <= num <= 18 or 29 <= num <= 36):
+#     print('красный')
+# elif num % 2 != 0 and (0 < num <= 10 or 19 <= num <= 28):
+#     print('красный')
+# elif num % 2 != 0 and (11 <= num <= 18 or 29 <= num <= 36):
+#     print('черный')
