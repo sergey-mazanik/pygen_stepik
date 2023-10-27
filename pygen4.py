@@ -172,3 +172,59 @@
 #     print('красный')
 # elif num % 2 != 0 and (11 <= num <= 18 or 29 <= num <= 36):
 #     print('черный')
+
+# a1 = int(input())
+# b1 = int(input())
+# a2 = int(input())
+# b2 = int(input())
+# if b1 < a2 or b2 < a1:
+#     print('пустое множество')
+# elif b1 == a2:
+#     print(b1)
+# elif a1 == b2:
+#     print(a1)
+# elif a1 <= a2 < b1 < b2:
+#     print(a2, b1)
+# elif a2 <= a1 < b2 <= b1:
+#     print(a1, b2)
+# elif a1 < a2 < b2 <= b1:
+#     print(a2, b2)
+# elif (a2 < a1 < b1 <= b2) or (a1 == a2 or b1 == b2):
+#     print(a1, b1)
+
+# num = int(input())
+# print('YES' if (num % 10 == 0) and ((num // 10) % 10 == 0) else 'NO')
+
+# x1, y1, x2, y2 = int(input()), int(input()), int(input()), int(input())
+# print('YES' if (x1 + y1 + x2 + y2) % 2 == 0 else 'NO')
+
+# age = int(input())
+# gender = input()
+# if gender == 'f' and 10 <= age <= 15:
+#     print('YES')
+# else:
+#     print('NO')
+
+# rome = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X']
+# num = int(input())
+# print(rome[num - 1] if 1 <= num <= 10 else 'ошибка')
+
+
+# num = int(input())
+# print('YES' if (num % 2 != 0) or (num % 2 == 0 and 6 <= num <= 20) else 'NO')
+
+# x1, y1, x2, y2 = int(input()), int(input()), int(input()), int(input())
+# print('YES' if x1 + y1 == x2 + y2 or abs(x1 - x2) == abs(y1 - y2) else 'NO')
+
+# x1, y1, x2, y2 = int(input()), int(input()), int(input()), int(input())
+# if (abs(x1-x2) == 1 and abs(y1-y2) == 2) or (abs(x1-x2) == 2 and abs(y1-y2) == 1):
+#     print('YES')
+# else:
+#     print('NO')
+
+# x1, y1, x2, y2 = int(input()), int(input()), int(input()), int(input())
+# if (x1 == x2 or y1 == y2) or ((-1 <= x1 - x2 <= 1) and (-1 <= y1 - y2 <= 1)) or (
+#         x1 + y1 == x2 + y2 or abs(x1 - x2) == abs(y1 - y2)):
+#     print('YES')
+# else:
+#     print('NO')
