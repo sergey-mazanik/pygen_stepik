@@ -292,3 +292,39 @@
 # q1 = int(input())
 # q2 = int(input())
 # print(abs(p1 - q1) + abs(p2 - q2))
+
+# print('"Python is a great language!"' + ', said Fred.' + ' "I don\'t ever remember having this much fun before."')
+
+# name = input()
+# surname = input()
+# print(f'Hello {name} {surname}! You have just delved into Python')
+
+# st = input()
+# print(f'Футбольная команда {st} имеет длину {len(st)} символов')
+
+# a = input()
+# b = input()
+# c = input()
+# a1 = len(a)
+# b1 = len(b)
+# c1 = len(c)
+# if min(a1, b1, c1) == a1:
+#     print(a)
+# elif min(a1, b1, c1) == b1:
+#     print(b)
+# elif min(a1, b1, c1) == c1:
+#     print(c)
+# if max(a1, b1, c1) == a1:
+#     print(a)
+# elif max(a1, b1, c1) == b1:
+#     print(b)
+# elif max(a1, b1, c1) == c1:
+#     print(c)
+
+# a = len(input())
+# b = len(input())
+# c = len(input())
+# maximum = max(a, b, c)
+# minimum = min(a, b, c)
+# medium = (a + b + c) - maximum - minimum
+# print('YES' if maximum - medium == medium-minimum else 'NO')
