@@ -228,3 +228,67 @@
 #     print('YES')
 # else:
 #     print('NO')
+
+# a = float(input())
+# b = float(input())
+# print((a * b) / 2)
+
+# s = float(input())
+# v1 = float(input())
+# v2 = float(input())
+# print(s / (v1 + v2))
+
+# num = float(input())
+# print('Обратного числа не существует' if num == 0 else 1 / num)
+
+# print((5 * (float(input()) - 32) / 9))
+
+# age = int(input())
+# print(age * 10.5 if 0 < age <= 2 else ((age - 2) * 4) + 21)
+
+# print(int((float(input()) * 10)) % 10)
+
+# num = float(input())
+# print(num - int(num))
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# d = int(input())
+# e = int(input())
+# print(f'''Наименьшее число = {min(a,b,c,d,e)}
+# Наибольшее число = {max(a,b,c,d,e)}''')
+
+# lst = [a := int(input()), b := int(input()), c := int(input())]
+# lst.sort(reverse=True)
+# print(*lst, sep='\n')
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# lst = [a, b, c]
+# lst.sort(reverse=True)
+# print(*lst, sep='\n')
+
+# num = int(input())
+# a = num % 10
+# b = (num % 100) // 10
+# c = num // 100
+# maximum = max(a, b, c)
+# summa = a + b + c
+# minimum = min(a, b, c)
+# medium = summa - maximum - minimum
+# print('Число интересное' if maximum == medium + minimum else 'Число неинтересное')
+
+# a = abs(float(input()))
+# b = abs(float(input()))
+# c = abs(float(input()))
+# d = abs(float(input()))
+# e = abs(float(input()))
+# print(a+b+c+d+e)
+
+# p1 = int(input())
+# p2 = int(input())
+# q1 = int(input())
+# q2 = int(input())
+# print(abs(p1 - q1) + abs(p2 - q2))
