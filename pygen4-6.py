@@ -328,3 +328,56 @@
 # minimum = min(a, b, c)
 # medium = (a + b + c) - maximum - minimum
 # print('YES' if maximum - medium == medium-minimum else 'NO')
+
+# print('YES' if 'синий' in input() else 'NO')
+
+# a = input()
+# print('YES' if 'суббота' in a or 'воскресенье' in a else 'NO')
+
+# a = input()
+# print('YES' if '@' in a and '.' in a else 'NO')
+
+# from math import sqrt, pow
+# x1, y1, x2, y2 = float(input()), float(input()), float(input()), float(input())
+# print(sqrt(pow((x1 - x2), 2) + pow((y1 - y2), 2)))
+
+# from math import pow, pi
+#
+# r = float(input())
+# print(pi * pow(r, 2), 2 * pi * r, sep='\n')
+
+# import math
+#
+# a, b = float(input()), float(input())
+# print(((a + b) / 2), math.sqrt(a * b), 2 * a * b / (a + b), math.sqrt((math.pow(a, 2) + math.pow(b, 2)) / 2), sep='\n')
+
+# from math import sin, cos, tan, radians
+#
+# num = radians(float(input()))
+# print(sin(num) + cos(num) + tan(num) ** 2)
+
+# from math import floor, ceil
+#
+# num = float(input())
+# print(floor(num) + ceil(num))
+
+# a = float(input())
+# b = float(input())
+# c = float(input())
+# d = b ** 2 - 4 * a * c
+# x1 = (-b + d ** 0.5) / (2 * a)
+# x2 = (-b - d ** 0.5) / (2 * a)
+# x3 = (-b) / (2 * a)
+# if d > 0:
+#     print(min(x1, x2), max(x1, x2), sep='\n')
+# elif d == 0:
+#     print(x3)
+# else:
+#     print('Нет корней')
+
+# from math import pow, tan, pi
+#
+# n = float(input())
+# a = float(input())
+# print((n * pow(a, 2)) / (4 * tan(pi / n)))
+
