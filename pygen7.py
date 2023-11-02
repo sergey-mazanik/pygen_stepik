@@ -134,4 +134,33 @@
 #         count -= i + 1
 # print(count)
 
+# n = int(input())
+# max_num1 = 0
+# max_num2 = 0
+# for _ in range(n):
+#     a = int(input())
+#     if a > max_num1:
+#         max_num2 = max_num1
+#         max_num1 = a
+#     elif max_num2 < a < max_num1:
+#         max_num2 = a
+# print(max_num1, max_num2, sep='\n')
+
+# flag = True
+# for _ in range(10):
+#     num = int(input())
+#     if num % 2 != 0:
+#         flag = False
+#         break
+# print('YES' if flag else 'NO')
+
+# n = int(input())
+# a = 1
+# y = 0
+# for i in range(1, n + 1):
+#     b = a
+#     a = b + y
+#     y = b
+#     print(b, end=' ')
+
 
