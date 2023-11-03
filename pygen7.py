@@ -217,3 +217,48 @@
 #     num -= 1
 # print(count)
 
+# num = int(input())
+# has_seven = False  # сигнальная метка
+# while num != 0:
+#     last_digit = num % 10
+#     if last_digit == 7:
+#         has_seven = True
+#     num = num // 10
+# if has_seven:
+#     print('YES')
+# else:
+#     print('NO')
+
+# num = int(input())
+# while num != 0:
+#     last_digit = num % 10
+#     print(last_digit)
+#     num = num // 10
+
+# num = int(input())
+# while num != 0:
+#     last_digit = num % 10
+#     print(last_digit, end='')
+#     num = num // 10
+
+# num = int(input())
+# last_digit = num % 10
+# maximum = last_digit
+# minimum = last_digit
+# while num != 0:
+#     last_digit = num % 10
+#     if last_digit > maximum:
+#         maximum = last_digit
+#     elif last_digit <= minimum:
+#         minimum = last_digit
+#     num = num // 10
+# print(f'''Максимальная цифра равна {maximum}
+# Минимальная цифра равна {minimum}''')
+
+# num = int(input())
+# summa = 0
+# count = 0
+# multi = 1
+# first_digit = int(str(num)[0])
+# last_digit = num % 10
+# sred = summa / count
