@@ -163,4 +163,57 @@
 #     y = b
 #     print(b, end=' ')
 
+# text = input()
+# while text != 'КОНЕЦ':
+#     print(text)
+#     text = input()
+
+# text = input()
+# while text != 'КОНЕЦ' and text != 'конец':
+#     print(text)
+#     text = input()
+
+# text = input()
+# count = 0
+# while text != 'стоп' and text != 'хватит' and text != 'достаточно':
+#     count += 1
+#     text = input()
+# print(count)
+
+# num = int(input())
+# while num % 7 == 0:
+#     print(num)
+#     num = int(input())
+
+
+# num = int(input())
+# summa = 0
+# while num >= 0:
+#     summa += num
+#     num = int(input())
+# print(summa)
+
+# num = int(input())
+# count = 0
+# while 0 < num < 6:
+#     if num == 5:
+#         count += 1
+#     num = int(input())
+# print(count)
+
+# num = int(input())
+# count = 0
+# while num >= 25:
+#     count += 1
+#     num -= 25
+# while num >= 10:
+#     count += 1
+#     num -= 10
+# while num >= 5:
+#     count += 1
+#     num -= 5
+# while num >= 1:
+#     count += 1
+#     num -= 1
+# print(count)
 
