@@ -260,5 +260,104 @@
 # count = 0
 # multi = 1
 # first_digit = int(str(num)[0])
-# last_digit = num % 10
+# sum_first_last = num % 10 + first_digit
+# while num != 0:
+#     last_digit2 = num % 10
+#     count += 1
+#     summa += last_digit2
+#     multi *= last_digit2
+#     num = num // 10
 # sred = summa / count
+# print(summa, count, multi, sred, first_digit, sum_first_last, sep='\n')
+
+# print(input()[1])
+
+# num = int(input())
+# last_digit = num % 10
+# flag = True
+# while num != 0:
+#     last_digit2 = num % 10
+#     if last_digit2 != last_digit:
+#         print('NO')
+#         flag = False
+#         break
+#     else:
+#         num = num // 10
+# if flag:
+#     print('YES')
+
+# num = int(input())
+# flag = True
+# last_digit = num % 10
+# while num != 0:
+#     last_digit2 = num % 10
+#     if last_digit2 < last_digit:
+#         flag = False
+#         break
+#     else:
+#         last_digit = last_digit2
+#         num = num // 10
+# print('YES' if flag else 'NO')
+
+# for i in range(1, 101):
+#     if i == 7 or i == 17 or i == 29 or i == 78:
+#         continue  # переходим на следующую итерацию
+#     print(i)
+
+# for i in range(10):
+#     print(i, end='*')
+#     if i > 6:
+#         break
+
+# i = 100
+# while i > 0:
+#     if i == 40:
+#         break
+#     print(i, end='*')
+#     i -= 20
+
+# n = 10
+# while n > 0:
+#     n -= 1
+#     if n == 2:
+#         continue
+#     print(n, end='*')
+
+# result = 0
+# for i in range(10):
+#     if i % 2 == 0:
+#         continue
+#     result += i
+# print(result)
+
+# mult = 1
+# for i in range(1, 11):
+#    if i % 2 == 0:
+#       continue
+#    if i % 9 == 0:
+#       break
+#    mult *= i
+# print(mult)
+
+# num = int(input())
+# for i in range(2, num + 1):
+#     if num % i == 0:
+#         print(i)
+#         break
+
+# num = int(input())
+# for i in range(1, num + 1):
+#     if 5 <= i <= 9:
+#         continue
+#     elif 17 <= i <= 37:
+#         continue
+#     elif 78 <= i <= 87:
+#         continue
+#     print(i)
+
+# n = 0
+# while n < 10:
+#     n += 2
+#     print(n)
+# else:
+#     print('Цикл завершен.')
