@@ -361,3 +361,62 @@
 #     print(n)
 # else:
 #     print('Цикл завершен.')
+
+# count = 0
+# p = 1
+# for _ in range(10):
+#     x = int(input())
+#     if x >= 0:
+#         p *= x
+#         count += 1
+# if count > 0:
+#     print(count)
+#     print(p)
+# else:
+#     print('NO')
+
+# mx = -10 ** 6
+# summa = 0
+# for _ in range(10):
+#     x = int(input())
+#     if x < 0:
+#         summa += x
+#         if x > mx:
+#             mx = x
+# if summa != 0:
+#     print(summa)
+#     print(mx)
+# else:
+#     print('NO')
+
+# s = 0
+# for _ in range(7):
+#     n = int(input())
+#     if n % 2 == 0:
+#         s += n
+# print(s)
+
+# n = int(input())
+# max_digit = -1
+# while n != 0:
+#     digit = n % 10
+#     if digit % 3 == 0 and digit > max_digit:
+#         max_digit = digit
+#     n = n // 10
+# if max_digit == -1:
+#     print('NO')
+# else:
+#     print(max_digit)
+
+# n = int(input())
+# while n >= 10:
+#     n //= 10
+# print(n)
+
+# n = int(input())
+# product = 1
+# while n != 0:
+#     digit = n % 10
+#     product *= digit
+#     n //= 10
+# print(product)
