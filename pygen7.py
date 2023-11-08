@@ -420,3 +420,70 @@
 #     product *= digit
 #     n //= 10
 # print(product)
+
+# for i in range(1, 4):
+#     for j in range(3, 5):
+#         print(i + j, end='')
+
+# counter = 0
+# for i in range(99, 102):
+#     temp = i
+#     while temp > 0:
+#         counter += 1
+#         temp //= 10
+# print(counter)
+
+# n = int(input())
+# for i in range(n):
+#     for j in range(3):
+#         print(n, end=' ')
+#     print()
+
+# n = int(input())
+# for i in range(1, n+1):
+#     for j in range(5):
+#         print(i, end=' ')
+#     print()
+
+# n = int(input())
+# for i in range(1, n + 1):
+#     for j in range(1, 10):
+#         print(f'{i} + {j} = {i + j}')
+#     print()
+
+# n = int(input())
+# for i in range(n // 2 + 1):
+#     for j in range(i + 1):
+#         print('*', end='')
+#     print()
+# for i in range(n // 2, 0, -1):
+#     for j in range(i, 0, -1):
+#         print('*', end='')
+#     print()
+
+# n = int(input())
+# for i in range(1, n + 1):
+#     for j in range(1, i + 1):
+#         print(i, end='')
+#     print()
+
+# for n in range(1, 19):
+#     for k in range(1, 19):
+#         for m in range(1, 19):
+#             if 28 * n + 30 * k + 31 * m == 365:
+#                 print(f'n = {n}, k = {k}, m = {m}')
+
+# for n in range(1, 100):
+#     for k in range(1, 100):
+#         for m in range(1, 100):
+#             if n * 10 + k * 5 + m * 0.5 == 100 and n + k + m == 100:
+#                 print(f'n = {n}, k = {k}, m = {m}')
+
+# for a in range(1, 151):
+#     for b in range(a, 151):
+#         for c in range(b, 151):
+#             for d in range(c, 151):
+#                 for e in range(d, 151):
+#                     while e ** 5 <= a ** 5 + b ** 5 + c ** 5 + d ** 5:
+#                         if a ** 5 + b ** 5 + c ** 5 + d ** 5 == e ** 5:
+#                             print(a + b + c + d + e)
