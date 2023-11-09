@@ -552,3 +552,85 @@
 #     if count == 2:
 #         print(i)
 
+# n = int(input())
+# s = 0
+# while n != 0:
+#     last_digit = n % 10
+#     if last_digit % 2 == 0:
+#         s += last_digit
+#     n //= 10
+# print(s)
+
+# n = 8
+# count = 0
+# maximum = -10 ** 6
+# for _ in range(n):
+#     x = int(input())
+#     if x % 4 == 0:
+#         count += 1
+#         if x > maximum:
+#             maximum = x
+# if count > 0:
+#     print(count)
+#     print(maximum)
+# else:
+#     print('NO')
+
+# n = 4
+# count = 0
+# maximum = -10 ** 8
+# for _ in range(n):
+#     x = int(input())
+#     if x % 2 != 0:
+#         count += 1
+#         if x > maximum:
+#             maximum = x
+# if count > 0:
+#     print(count)
+#     print(maximum)
+# else:
+#     print('NO')
+
+# n = int(input())
+# print('*' * 19)
+# for i in range(n - 2):
+#     print(f'*{" " * 17}*')
+# print('*' * 19)
+
+# print(input()[2])
+
+# n = int(input())
+# summa_5 = 0
+# count_3 = 0
+# last_digit = n % 10
+# count_last = 0
+# multi_7 = 1
+# count_0_5 = 0
+# odd = 0
+# while n != 0:
+#     a = n % 10
+#     if a == 3:
+#         count_3 += 1
+#     if a == last_digit:
+#         count_last += 1
+#     if a % 2 == 0:
+#         odd += 1
+#     if a > 5:
+#         summa_5 += a
+#     if a > 7:
+#         multi_7 *= a
+#     if a == 0 or a == 5:
+#         count_0_5 += 1
+#     n //= 10
+# print(count_3, count_last, odd, summa_5, multi_7, count_0_5, sep='\n')
+
+# lst = []
+# for n in range(1, 33):
+#     for k in range(1, 33):
+#         for m in range(1, 33):
+#             for i in range(1, 33):
+#                 if n ** 3 + k ** 3 == m ** 3 + i ** 3 and n != k and n != m and n != i and k != m and k != i and m != i:
+#                     lst.append(n ** 3 + k ** 3)
+#                     # print(n ** 3 + k ** 3)
+# my_set = set(lst)
+# print(sorted(my_set))
