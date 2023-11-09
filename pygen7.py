@@ -487,3 +487,68 @@
 #                     while e ** 5 <= a ** 5 + b ** 5 + c ** 5 + d ** 5:
 #                         if a ** 5 + b ** 5 + c ** 5 + d ** 5 == e ** 5:
 #                             print(a + b + c + d + e)
+
+# n = int(input())
+# total = 1
+# for i in range(1, n + 1):
+#     for j in range(1, i + 1):
+#         print(total, end=' ')
+#         total += 1
+#     print()
+
+# n = int(input())
+# for i in range(1, n + 1):
+#     for j in range(i):
+#         print(j + 1, end='')
+#     for k in range(i - 1, 0, -1):
+#         print(k, end='')
+#     print()
+
+# a, b = int(input()), int(input())
+# summa = 0
+# maximum = 0
+# for i in range(a, b + 1):
+#     count = 0
+#     for j in range(1, i + 1):
+#         if i % j == 0:
+#             count += j
+#         if count >= summa:
+#             summa = count
+#             maximum = i
+# print(maximum, summa)
+
+# n = int(input())
+# for i in range(1, n + 1):
+#     count = 0
+#     for j in range(1, i + 1):
+#         if i % j == 0:
+#             count += 1
+#     print(f'{i}{"+" * count}', sep='')
+
+# n = int(input())
+# while n > 9:
+#     count = 0
+#     while n > 0:
+#         last_digit = n % 10
+#         count += last_digit
+#         n //= 10
+#     n = count
+# print(n)
+
+# from math import factorial
+#
+# n = int(input())
+# summa = 0
+# for i in range(1, n + 1):
+#     summa += factorial(i)
+# print(summa)
+
+# a, b = int(input()), int(input())
+# for i in range(a, b + 1):
+#     count = 0
+#     for j in range(1, b + 1):
+#         if i % j == 0:
+#             count += 1
+#     if count == 2:
+#         print(i)
+
