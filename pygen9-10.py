@@ -173,4 +173,49 @@
 #
 # print(f'In {year}, someone paid {amount} {currency} for two pizzas.')
 
+# a = int(input())
+# b = int(input())
+# for i in range(a, b + 1):
+#     print(chr(i), end=' ')
 
+# st = input()
+# for c in st:
+#     print(ord(c), end=' ')
+
+# step = int(input())
+# st = input()
+# for i in range(len(st)):
+#     n = ord(st[i]) - step
+#     if n < 97:
+#         n = 122 - (96 - n)
+#     print(chr(n), end='')
+
+# s = 'Python rocks!'
+# print(s.replace('o', '@'))
+
+# st = input()
+# new_st = ''
+# for i in range(len(st)):
+#     if i != 0 and i % 3 != 0:
+#         new_st += st[i]
+# print(new_st)
+
+# st = input()
+# print(st.replace('1', 'one'))
+
+# st = input()
+# print(st.replace('@', ''))
+
+# st = input()
+# if st.count('f') == 0:
+#     print(-2)
+# if st.count('f') == 1:
+#     print(-1)
+# if st.count('f') >= 2:
+#     st = st.replace('f', ' ', 1)
+#     print(st.find('f'))
+
+# st = input()
+# first = st.find('h')
+# last = st.rfind('h')
+# print(st[:first] + st[last:first:-1] + st[last:])
