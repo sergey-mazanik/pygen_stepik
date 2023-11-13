@@ -90,3 +90,73 @@
 # for i in range(num):
 #     lst.extend(input())
 # print(lst)
+
+# numbers = [1, 78, 23, -65, 99, 9089, 34, -32, 0, -67, 1, 11, 111]
+# lst = []
+# for num in numbers:
+#     lst.append(num ** 2)
+# print(sum(lst))
+
+# num = int(input())
+# lst = []
+# for i in range(num):
+#     lst.append(int(input()))
+# print(*lst, sep='\n')
+# print()
+# for num in lst:
+#     print(num ** 2 + num * 2 + 1)
+
+# num = int(input())
+# lst = [int(input()) for _ in range(num)]
+# del lst[lst.index(max(lst))]
+# del lst[lst.index(min(lst))]
+# print(*lst, sep='\n')
+
+# num = int(input())
+# lst = []
+# for _ in range(num):
+#     st = input()
+#     if st not in lst:
+#         lst.append(st)
+# print(*lst, sep='\n')
+
+# num = int(input())
+# lst = []
+# for _ in range(num):
+#     lst.append(input())
+# req = input().lower()
+# for i in lst:
+#     if req in i.lower():
+#         print(i)
+
+# num = int(input())
+# lst = []
+# for _ in range(num):
+#     lst.append(input())
+# num2 = int(input())
+# lst2 = []
+# for _ in range(num2):
+#     lst2.append(input())
+# lst3 = []
+# for i in lst:
+#     count = 0
+#     for j in lst2:
+#         if j.lower() in i.lower():
+#             count += 1
+#     if count == len(lst2):
+#         lst3.append(i)
+# print(*lst3, sep='\n')
+
+# num = int(input())
+# negatives = []
+# zeros = []
+# positives = []
+# for _ in range(num):
+#     n = int(input())
+#     if n > 0:
+#         positives.append(n)
+#     elif n == 0:
+#         zeros.append(n)
+#     else:
+#         negatives.append(n)
+# print(*negatives, *zeros, *positives, sep='\n')
