@@ -160,3 +160,77 @@
 #     else:
 #         negatives.append(n)
 # print(*negatives, *zeros, *positives, sep='\n')
+
+# s = 'BEEGEEK'
+# chars = list(s)
+# s = '**'.join(chars)
+# print(s)
+
+# lst = input().split()
+# print(*lst, sep='\n')
+
+# lst = input().split()
+# print(f'{lst[0][0]}.{lst[1][0]}.{lst[2][0]}.')
+
+# st = input().split('\\')
+# print(*st, sep='\n')
+
+# lst = list(map(int, input().split()))
+# for c in lst:
+#     print('+' * c)
+
+# lst = list(map(int, input().split('.')))
+# flag = True
+# for c in lst:
+#     if c > 255:
+#         flag = False
+#         break
+# print('ДА' if flag else 'НЕТ')
+
+# st = input()
+# raz = input()
+# print(raz.join(st))
+
+# lst = list(map(int, input().split()))
+# count = 0
+# for i in range(len(lst)):
+#     for j in range(i + 1, len(lst)):
+#         if lst[i] == lst[j]:
+#             count += 1
+# print(count)
+
+# numbers = [8, 9, 10, 11]
+# numbers.remove(10)
+# numbers.insert(2, 17)
+# numbers.append(4)
+# numbers.append(5)
+# numbers.append(6)
+# numbers.remove(8)
+# numbers = numbers * 2
+# numbers.insert(3, 25)
+# print(numbers)
+
+# lst = list(map(int, input().split()))
+# maximum = lst.index(max(lst))
+# minimum = lst.index(min(lst))
+# lst[maximum], lst[minimum] = lst[minimum], lst[maximum]
+# print(*lst)
+
+# lst = input().lower().split()
+# a = lst.count('a')
+# an = lst.count('an')
+# the = lst.count('the')
+# print(f'Общее количество артиклей: {a + an + the}')
+
+# num = int(input()[1:])
+# lst = []
+# for i in range(num):
+#     st = input().split('#')
+#     lst.append(st[0].rstrip())
+# print(*lst, sep='\n')
+
+# lst = list(map(int, input().split()))
+# lst.sort()
+# print(*lst)
+# lst.sort(reverse=True)
+# print(*lst)
