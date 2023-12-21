@@ -246,3 +246,98 @@
 #             'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'while', 'yield']
 # lengths = [len(keyword) for keyword in keywords]
 # print(lengths)
+
+# keywords = ['False', 'True', 'None', 'and', 'with', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif',
+#             'else', 'except', 'finally', 'try', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda',
+#             'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'while', 'yield']
+# new_keywords = [i for i in keywords if len(i) > 4]
+# print(new_keywords)
+
+# palindromes = [i for i in range(100, 1001) if str(i) == str(i)[::-1]]
+# print(palindromes)
+
+# lst = [i ** 2 for i in range(1, int(input()) + 1)]
+# print(*lst, sep='\n')
+
+# print(*[int(i) ** 3 for i in input().split()])
+
+# lst = [char for char in input().split()]
+# print(*lst, sep='\n')
+
+# lst = [i for i in input() if i.isdigit()]
+# print(*lst, sep='')
+
+# lst = list(map(int, input().split()))
+# lst1 = [i ** 2 for i in lst if (i ** 2) % 10 != 4 and (i ** 2) % 2 == 0]
+# print(*lst1)
+
+# from time import time
+# a = [17, 24, 91, 96, 67, -27, 79, -71, -71, 58, 48, 88, 88, -16, -78, 96, -76, 56, 92, 1, 32, -17, 36, 88, -61, -97,
+#      -37, -84, 50, 47, 94, -6, 52, -76, 93, 14, -32, 98, -65, -16, -9, -68, -20, -40, -71, 93, -91, 44, 25, 79, 97, 0,
+#      -94, 7, -47, -96, -55, -58, -78, -78, -79, 75, 44, -56, -41, 38, 16, 70, 17, -17, -24, -83, -74, -73, 11, -26, 63,
+#      -75, -19, -13, -51, -74, 21, -8, 21, -68, -66, -84, -95, 78, 69, -29, 39, 38, -55, 7, -11, -26, -62, -84]
+#
+# n = len(a)
+# start = time()
+# for i in range(n - 1):
+#     for j in range(n - i - 1):
+#         if a[j] > a[j + 1]:
+#             a[j], a[j + 1] = a[j + 1], a[j]
+# finish = time()
+# print(a)
+# print(finish - start)
+
+# a = [78, -32, 5, 39, 58, -5, -63, 57, 72, 9, 53, -1, 63, -97, -21, -94, -47, 57, -8, 60, -23, -72, -22, -79, 90, 96,
+#      -41, -71, -48, 84, 89, -96, 41, -16, 94, -60, -64, -39, 60, -14, -62, -19, -3, 32, 98, 14, 43, 3, -56, 71, -71,
+#      -67, 80, 27, 92, 92, -64, 0, -77, 2, -26, 41, 3, -31, 48, 39, 20, -30, 35, 32, -58, 2, 63, 64, 66, 62, 82, -62, 9,
+#      -52, 35, -61, 87, 78, 93, -42, 87, -72, -10, -36, 61, -16, 59, 59, 22, -24, -67, 76, -94, 59]
+# n = len(a)
+# for i in range(n):
+#      lowest_value_index = i
+#      for j in range(i + 1, n):
+#           if a[j] < a[lowest_value_index]:
+#                lowest_value_index = j
+#      a[i], a[lowest_value_index] = a[lowest_value_index], a[i]
+# print(a)
+
+# names = ['Джим', 'Джилл', 'Джон', 'Джасмин']
+# if 'Джасмин' not in names:
+#     print ('Не могу найти Джасмин.')
+# else:
+#     print('Ceмья Джасмин: ', end='')
+#     print(names)
+
+# n = int(input())
+# lst = [i for i in range(n+1)]
+# print(lst[2::2])
+
+# lst_1 = [int(i) for i in input().split()]
+# lst_2 = [int(i) for i in input().split()]
+# lst = []
+# for i in range(len(lst_1)):
+#     lst.append(int(lst_1[i]) + int(lst_2[i]))
+# print(*lst)
+
+# lst = [int(i) for i in input().split()]
+# print(*lst, sep='+', end='')
+# print(f'={sum(lst)}')
+
+# st = input().split('-')
+# st2 = ''.join(st)
+# if st2.isdigit():
+#     if (st[0] == '7' and len(st[1]) == 3 and len(st[2]) == 3 and len(st[3]) == 4) or (
+#             len(st[0]) == 3 and len(st[1]) == 3 and len(st[1]) == 3):
+#         print('YES')
+#     else:
+#         print('NO')
+# else:
+#     print('NO')
+
+# print(max([len(i) for i in input().split()]))
+
+# lst = [i for i in input().split()]
+# lst2 = []
+# for i in lst:
+#     word = i[1:] + i[:1] + 'ки'
+#     lst2.append(word)
+# print(*lst2)
