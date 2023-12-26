@@ -230,42 +230,42 @@
 # txt = input()
 # print(is_palindrome(txt))
 
-def is_prime(num):
-    lst = []
-    for i in range(1, num + 1):
-        if num % i == 0:
-            lst.append(i)
-    if len(lst) == 2:
-        return True
-    else:
-        return False
-
-def is_palindrome(text):
-    text1 = "".join(i for i in text if i.isalpha())
-    if text1.lower()[:] == text1.lower()[::-1]:
-        return True
-    else:
-        return False
-
-def is_valid_password(password):
-    password = password.split(':')
-    count = 0
-    a = password[0]
-    b = int(password[1])
-    c = int(password[2])
-    if len(password) != 3:
-        return False
-    if a[:] == a[::-1]:
-        count += 1
-    if is_prime(b):
-        count += 1
-    if c % 2 == 0:
-        count += 1
-
-    if count == 3:
-        return True
-    else:
-        return False
-
-psw = input()
-print(is_valid_password(psw))
+# def is_prime(num):
+#     lst = []
+#     for i in range(1, num + 1):
+#         if num % i == 0:
+#             lst.append(i)
+#     if len(lst) == 2:
+#         return True
+#     else:
+#         return False
+#
+# def is_palindrome(text):
+#     text1 = "".join(i for i in text if i.isalpha())
+#     if text1.lower()[:] == text1.lower()[::-1]:
+#         return True
+#     else:
+#         return False
+#
+# def is_valid_password(password):
+#     password = password.split(':')
+#     count = 0
+#     a = password[0]
+#     b = int(password[1])
+#     c = int(password[2])
+#     if len(password) != 3:
+#         return False
+#     if a[:] == a[::-1]:
+#         count += 1
+#     if is_prime(b):
+#         count += 1
+#     if c % 2 == 0:
+#         count += 1
+#
+#     if count == 3:
+#         return True
+#     else:
+#         return False
+#
+# psw = input()
+# print(is_valid_password(psw))
