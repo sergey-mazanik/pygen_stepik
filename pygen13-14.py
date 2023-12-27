@@ -420,13 +420,13 @@
 # print(is_magic(date))
 
 
-def is_pangram(text):
-    abc = "abcdefghijklmnopqrstuvwxyz"
-    for i in abc:
-        if i not in text.lower():
-            return False
-    return True
-
-
-text = input()
-print(is_pangram(text))
+# def is_pangram(text):
+#     abc = "abcdefghijklmnopqrstuvwxyz"
+#     for i in abc:
+#         if i not in text.lower():
+#             return False
+#     return True
+#
+#
+# text = input()
+# print(is_pangram(text))
